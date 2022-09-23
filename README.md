@@ -6,6 +6,7 @@
 https://developer.safaricom.co.ke/
 
 We want to ntergrere the mpeasa api in our simple app.
+
 ##Step 1
 
 Set up internet permissions in the android manifest.
@@ -17,6 +18,7 @@ Retrofit client- add the retrofit interface and pass the request parameters.
 eg the authorisation values.
 this is got from the consumer_secret & consumer_key you can use (https://www.base64encode.org/) to make the base64 code or get it from the code
 
+https://developer.android.com/reference/android/util/Base64
 String credentials = Base64.encodeToString(keyCombined.getBytes(StandardCharsets.UTF_8), Base64.DEFAULT);
 
 ##step 3
